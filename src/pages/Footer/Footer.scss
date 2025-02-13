@@ -1,0 +1,34 @@
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr fit-content;
+  :not(h3) {
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .mobile {
+    display: none;
+  }
+  .footer-aside__links,
+  .footer-links {
+    display: flex;
+  }
+
+  .footer-links {
+    grid-column: 2 / 4;
+    padding: 2rem 4rem 3.5rem;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+
+    h3 {
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media all and (max-width: 768px) {
+    .mobile {
+      display: block;
+    }
+  }
+}

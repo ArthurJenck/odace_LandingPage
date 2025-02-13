@@ -1,6 +1,7 @@
 [
   {
     "title": "Informations",
+    "mobileTitle": "Informations",
     "isAside": true,
     "links": [
       {
@@ -23,6 +24,7 @@
   },
   {
     "title": "Mes services",
+    "mobileTitle": "Mes services",
     "isAside": true,
     "links": [
       {
@@ -49,43 +51,43 @@
     "isAside": false,
     "links": [
       {
-        "text": "Consultant en finance personnelle",
+        "text": "Consultant en SEO",
         "href": "https://odaceplus.com/fr/mission/consultant_finance_personnelle"
       },
       {
-        "text": "Producteur de films indépendants",
+        "text": "Studio de design de mode",
         "href": "https://odaceplus.com/fr/tarifs"
       },
       {
-        "text": "Cabinet de conseil",
+        "text": "Associations caritatives",
         "href": "https://odaceplus.com/fr/ressources"
       },
       {
-        "text": "Entreprise de décorateur d'intérieur",
+        "text": "Agence digitale",
         "href": "https://odaceplus.com/fr/search"
       },
       {
-        "text": "Agent immobilier",
+        "text": "Entrepreneur",
         "href": "https://odaceplus.com/fr/search"
       },
       {
-        "text": "Organisateur d'événements (wedding planner, corporate events)",
+        "text": "Coach sportif",
         "href": "https://odaceplus.com/fr/search"
       },
       {
-        "text": "Consultant en transformation digitale",
+        "text": "Commerçants indépendants",
+        "href": "https://odaceplus.com/fr/search"
+      },
+      {
+        "text": "Consultant en stratégie d’entreprise",
+        "href": "https://odaceplus.com/fr/search"
+      },
+      {
+        "text": "Avocat indépendant",
         "href": "https://odaceplus.com/fr/search"
       },
       {
         "text": "Professionnels du bien-être",
-        "href": "https://odaceplus.com/fr/search"
-      },
-      {
-        "text": "Brand manager (gestionnaire de marque)",
-        "href": "https://odaceplus.com/fr/search"
-      },
-      {
-        "text": "Thérapeute (psychlogue, psychothérapeute)",
         "href": "https://odaceplus.com/fr/search"
       }
     ]
@@ -96,43 +98,43 @@
     "isAside": false,
     "links": [
       {
-        "text": "Éduquer leur audience sur leurs produits ou services",
+        "text": "Créer un lien émotionnel avec leur audience",
         "href": "https://odaceplus.com/fr/mission/consultant_finance_personnelle"
       },
       {
-        "text": "Accroître la conversion de visiteurs en acheteurs",
+        "text": "Créer une communauté engagée",
         "href": "https://odaceplus.com/fr/tarifs"
       },
       {
-        "text": "Obtenir des témoignages et avis positifs de clients",
+        "text": "Optimiser la communication en temps réel (stories, live...)",
         "href": "https://odaceplus.com/fr/ressources"
       },
       {
-        "text": "Améliorer la communication client via les réseaux",
+        "text": "Atteindre un public plus jeune ou diversifié",
         "href": "https://odaceplus.com/fr/search"
       },
       {
-        "text": "Augmenter les interactions via des sondages, quizz ou challenges",
+        "text": "Améliorer leur taux de rétention client",
         "href": "https://odaceplus.com/fr/search"
       },
       {
-        "text": "Accroître le nombre de prises de rendez-vous ou de consultations",
+        "text": "Favoriser l’adoption d’une nouvelle technologie ou service",
         "href": "https://odaceplus.com/fr/search"
       },
       {
-        "text": "Réduire les coûts du support client avec des contenus",
+        "text": "Favoriser le bouche-à-oreille digital",
         "href": "https://odaceplus.com/fr/search"
       },
       {
-        "text": "Promouvoir des événements (webinaires, ateliers, conférences)",
+        "text": "Accroître les ventes en ligne",
         "href": "https://odaceplus.com/fr/search"
       },
       {
-        "text": "Optimiser la communication en temps réel (stories, lives)",
+        "text": "Humaniser leur marque en montrant les coulisses",
         "href": "https://odaceplus.com/fr/search"
       },
       {
-        "text": "Augmenter le nombre d'abonnés",
+        "text": "Créer du contenu viral pour étendre leur portée",
         "href": "https://odaceplus.com/fr/search"
       }
     ]

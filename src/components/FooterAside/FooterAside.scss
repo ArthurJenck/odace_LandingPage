@@ -1,0 +1,11 @@
+.footer-aside {
+  grid-column: 1 / 2;
+  border-right: solid 1px white;
+  border-bottom: 1px solid white;
+  padding: 2rem 4rem;
+
+  .footer-aside__links {
+    display: flex;
+    gap: 3rem;
+  }
+}

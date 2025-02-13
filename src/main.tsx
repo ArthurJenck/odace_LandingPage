@@ -8,6 +8,7 @@ import BannerCarousel from "./components/BannerCarousel"
 import GalleryWrapper from "./pages/GalleryWrapper"
 import Newsletter from "./components/Newsletter"
 import Footer from "./pages/Footer"
+import DecorationLogo from "./components/DecorationLogo"
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById("root")!).render(
     <BannerCarousel />
     <GalleryWrapper />
     <Newsletter />
+    <DecorationLogo />
     <Footer />
   </StrictMode>
 )
