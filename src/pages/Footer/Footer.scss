@@ -30,6 +30,9 @@ footer {
     .mobile {
       display: block;
     }
+    .desk {
+      display: none;
+    }
 
     display: flex;
     flex-direction: column;
