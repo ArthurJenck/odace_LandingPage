@@ -18,7 +18,7 @@ const GallerySection = ({ categ }: any) => {
           })
         ) : (
           <p className="empty-categ">
-            Pas de vidéo renseignée ici pour le moment.
+            Pas de vidéo renseignée ici (pour l'instant) !
           </p>
         )}
       </div>
