@@ -1,50 +1,63 @@
-# React + TypeScript + Vite
+# Odace – Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Exercice du processus de recrutement d'Odace, Maison de création audiovisuelle
 
-Currently, two official plugins are available:
+### Outils utilisés
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[API REST fournie par Odace contenant les miniatures à afficher sur la page](https://backend.odaceplus.com/api/v1/landing/)  
+Figma pour l'imagination du design et la création de la maquette du projet
 
-## Expanding the ESLint configuration
+### Aperçu hébergé
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Le site est déployé via Vercel, et hébergé sur [odace.arthurjenck.com](https://odace.arthurjenck.com)
 
-- Configure the top-level `parserOptions` property like this:
+### Installation
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Utilisez votre gestionnaire de projets préféré pour installer les dépendances :
+
+#### NPM :
+
+```sh
+> npm i
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+#### Yarn :
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```sh
+> yarn
 ```
+
+Puis lancez le projet avec :
+
+#### NPM :
+
+```sh
+> npm run dev
+```
+
+#### Yarn :
+
+```sh
+> yarn vite
+```
+
+Et ouvrez http://localhost:3000 pour voir la magie opérer !
+
+### Futurs ajouts
+
+Meilleure structuration de certains fichiers  
+Ajout des liens menant pour le moment nulle part  
+Remplacement des quelques types any, mis pour le moment à cause du temps pressant
+
+### Dates du projet
+
+Design de la maquette le 12 février 2025  
+Développement de A à Z le 13 février 2025
+
+### Auteur
+
+Arthur Jenck  
+https://arthurjenck.com/  
+https://www.linkedin.com/in/arthurjenck/
+
+<img src="https://i.ibb.co/R4tzqky/logo.png" width="75">
