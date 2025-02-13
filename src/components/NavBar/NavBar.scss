@@ -55,7 +55,7 @@ nav {
         height: 2rem;
         width: 100%;
       }
-      :nth-child(2) {
+      .nav-search__link {
         margin: 0 1rem 0 auto;
         img {
           max-height: 2rem;
@@ -74,6 +74,51 @@ nav {
           background-color: white;
           height: 1px;
           width: 1.5rem;
+        }
+      }
+
+      .burger-menu {
+        transform: translateX(110%);
+        position: fixed;
+        background-color: #232323;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 0.2s ease;
+
+        &.open {
+          transform: translateX(0);
+        }
+
+        .burger-close__btn {
+          position: absolute;
+          top: 2rem;
+          right: 1.5rem;
+          font-size: 1.5rem;
+        }
+
+        .logo {
+          width: 100%;
+          padding: 4rem 0;
+        }
+
+        ul {
+          list-style-type: none;
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          li {
+            border-bottom: 1px solid white;
+            width: 100%;
+            padding: 2rem 2rem;
+            &:nth-of-type(1) {
+              border-top: solid 1px white;
+            }
+          }
         }
       }
     }

@@ -4,7 +4,7 @@ import "./NavBar.scss"
 import { useState } from "react"
 
 const NavBar = () => {
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(false)
 
   const handleClick = () => {
     setIsOpen(!isOpen)
@@ -16,7 +16,7 @@ const NavBar = () => {
         <a href="https://odaceplus.com/fr/" className="logo">
           <img src={odaceLogo} alt="logo odace+" />
         </a>
-        <a href="https://odaceplus.com/fr/search">
+        <a href="https://odaceplus.com/fr/search" className="nav-search__link">
           <img src={aiSearchIcon} alt="Icone de loupe" />
         </a>
         <div className="burger-btn" onClick={handleClick}>
@@ -24,8 +24,10 @@ const NavBar = () => {
           <span></span>
           <span></span>
         </div>
-        <div className="burger-menu">
-          <div className="burger-close__btn">⨉</div>
+        <div className={isOpen ? "open burger-menu" : "burger-menu"}>
+          <div className="burger-close__btn" onClick={handleClick}>
+            ⨉
+          </div>
           <a href="#">
             <img src={odaceLogo} alt="logo odace" className="logo" />
           </a>
