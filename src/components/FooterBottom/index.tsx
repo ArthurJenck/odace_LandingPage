@@ -2,6 +2,7 @@ import xIcon from "../../assets/socials/x.svg"
 import instaIcon from "../../assets/socials/insta.svg"
 import linkedinIcon from "../../assets/socials/linkedin.svg"
 import tiktokIcon from "../../assets/socials/tiktok.svg"
+import odaceLogo from "../../assets/odaceLogo.svg"
 import "./FooterBottom.scss"
 
 const FooterBottom = () => {
@@ -9,6 +10,11 @@ const FooterBottom = () => {
     <div className="footer-bottom__wrapper">
       <p className="copyright">© odace+. Tous droits réservés</p>
       <div className="footer-bottom__socials_and_legal">
+        <img
+          src={odaceLogo}
+          alt="logo odace"
+          className="mobile footer-bottom__logo"
+        />
         <ul className="footer-bottom__socials">
           <li>
             <a href="https://x.com/odaceplus">
