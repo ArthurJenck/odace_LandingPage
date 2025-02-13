@@ -10,8 +10,18 @@ const GalleryCard = ({ mission, index }: any) => {
   useEffect(() => {
     AOS.init()
 
-    if (index > 4) {
-      setAosDelay(`${index - 4}00`)
+    const container = document.querySelector(
+      ".gallery-cards__container"
+    ) as Element
+
+    const gridCols = parseInt(
+      window.getComputedStyle(container).gridTemplate[
+        window.getComputedStyle(container).gridTemplate.length - 7
+      ]
+    )
+
+    if (index >= gridCols - 1) {
+      setAosDelay(`${index % gridCols}00`)
     }
   }, [index, aosDelay])
 

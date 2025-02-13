@@ -8,4 +8,11 @@
   .empty-categ {
     font-family: "Poppins", Helvetica, sans-serif;
   }
+
+  @media all and (max-width: 1024px) {
+    .gallery-cards__container:has(:not(.empty-categ)) {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+  }
 }
