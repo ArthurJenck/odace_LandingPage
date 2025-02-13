@@ -6,6 +6,7 @@ import ChatBotBtn from "./components/ChatBotBtn"
 import NavBar from "./components/NavBar"
 import BannerCarousel from "./components/BannerCarousel"
 import GalleryWrapper from "./pages/GalleryWrapper"
+import Newsletter from "./components/Newsletter"
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -14,5 +15,6 @@ createRoot(document.getElementById("root")!).render(
     <ChatBotBtn />
     <BannerCarousel />
     <GalleryWrapper />
+    <Newsletter />
   </StrictMode>
 )
