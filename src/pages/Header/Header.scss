@@ -1,0 +1,33 @@
+@import "../../styles/clash-display.css";
+
+header {
+  height: 100svh;
+  padding-top: 22vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+  h1 {
+    text-align: center;
+    font-family: "ClashDisplay-Semibold";
+
+    font-size: 2.75rem;
+
+    strong {
+      display: block;
+      background: -webkit-linear-gradient(left, #863af0, #cd5ccf);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 25vw;
+      line-height: 20vw;
+
+      span {
+        font-family: "ClashDisplay-Extralight";
+        font-size: 40vw;
+        vertical-align: middle;
+      }
+    }
+  }
+}
