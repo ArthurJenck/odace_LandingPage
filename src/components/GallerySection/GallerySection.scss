@@ -12,6 +12,11 @@
   @media all and (max-width: 1024px) {
     .gallery-cards__container:has(:not(.empty-categ)) {
       grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media all and (max-width: 768px) {
+    .gallery-cards__container:has(:not(.empty-categ)) {
+      grid-template-columns: repeat(2, 1fr);
       gap: 1rem;
     }
   }
