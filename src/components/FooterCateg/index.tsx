@@ -2,7 +2,6 @@ import FooterLink from "../FooterLink"
 import "./FooterCateg.scss"
 
 const FooterCateg = ({ categ }: any) => {
-  console.log(categ.mobileTitle, !categ.title)
   return (
     <div
       className={

@@ -37,6 +37,41 @@
       border: none;
       background-color: #863af0;
       font-family: "Poppins", Helvetica, sans-serif;
+      &.mobile {
+        display: none;
+      }
+    }
+  }
+
+  @media all and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 3rem;
+
+    .newsletter-input__container {
+      input {
+        border-radius: 10px;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+      }
+
+      button {
+        &.desk {
+          display: none;
+        }
+        &.mobile {
+          display: block;
+          padding: 0;
+          width: 1.75rem;
+
+          img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+      }
     }
   }
 }

@@ -1,3 +1,4 @@
+import arrowIcon from "../../assets/arrowRightSquare.svg"
 import "./Newsletter.scss"
 
 const Newsletter = () => {
@@ -14,7 +15,10 @@ const Newsletter = () => {
           placeholder="Entrez votre adresse e-mail"
           autoComplete="on"
         />
-        <button>S'abonner</button>
+        <button className="desk">S'abonner</button>
+        <button className="mobile">
+          <img src={arrowIcon} alt="icone de flèche" />
+        </button>
       </div>
     </form>
   )

@@ -31,6 +31,7 @@ const GalleryCard = ({ mission, index }: any) => {
       data-aos="fade-up"
       data-aos-easing="linear"
       data-aos-delay={aosDelay}
+      data-aos-anchor-placement="top-bottom"
       ref={cardRef}
     >
       <img src={mission.image} alt={mission.title} />
