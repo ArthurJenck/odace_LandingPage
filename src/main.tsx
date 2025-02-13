@@ -7,7 +7,7 @@ import NavBar from "./components/NavBar"
 import BannerCarousel from "./components/BannerCarousel"
 import GalleryWrapper from "./pages/GalleryWrapper"
 import Newsletter from "./components/Newsletter"
-// import Footer from "./pages/Footer"
+import Footer from "./pages/Footer"
 import DecorationLogo from "./components/DecorationLogo"
 
 createRoot(document.getElementById("root")!).render(
@@ -19,6 +19,6 @@ createRoot(document.getElementById("root")!).render(
     <GalleryWrapper />
     <Newsletter />
     <DecorationLogo />
-    {/* <Footer /> */}
+    <Footer />
   </StrictMode>
 )

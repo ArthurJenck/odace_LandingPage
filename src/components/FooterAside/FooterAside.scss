@@ -8,4 +8,11 @@
     display: flex;
     gap: 3rem;
   }
+
+  @media all and (max-width: 768px) {
+    padding: 2rem 1rem;
+    .footer-aside__links {
+      display: none;
+    }
+  }
 }
