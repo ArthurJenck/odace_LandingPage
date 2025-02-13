@@ -43,4 +43,27 @@ header {
       height: 0.75rem;
     }
   }
+
+  @media all and (max-width: 768px) {
+    height: auto;
+    h1 {
+      text-align: start;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      font-size: 4rem;
+      strong {
+        display: none;
+      }
+      em {
+        background: -webkit-linear-gradient(left, #863af0, #cd5ccf);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    .header-catalogue__btn {
+      display: none;
+    }
+  }
 }
