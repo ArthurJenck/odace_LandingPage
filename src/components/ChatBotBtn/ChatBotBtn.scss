@@ -19,4 +19,14 @@
       transform: scale(1.1);
     }
   }
+
+  @media all and (max-width: 768px) {
+    height: 3.5rem;
+    width: 3.5rem;
+    padding: 0.75rem;
+
+    img:hover {
+      transform: scale(1);
+    }
+  }
 }
