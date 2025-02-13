@@ -6,7 +6,12 @@ const Newsletter = () => {
       <label htmlFor="newsletter-email">
         Abonnez-vous à notre newsletter :
       </label>
-      <input type="email" name="email" id="newsletter-email" />
+      <input
+        type="email"
+        name="email"
+        id="newsletter-email"
+        autoComplete="on"
+      />
       <button>S'abonner</button>
     </form>
   )
