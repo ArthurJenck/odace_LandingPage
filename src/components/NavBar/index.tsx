@@ -1,8 +1,15 @@
 import odaceLogo from "../../assets/odaceLogo.svg"
 import aiSearchIcon from "../../assets/aiSearchIcon.svg"
 import "./NavBar.scss"
+import { useState } from "react"
 
 const NavBar = () => {
+  const [isOpen, setIsOpen] = useState(true)
+
+  const handleClick = () => {
+    setIsOpen(!isOpen)
+  }
+
   return (
     <nav>
       <div className="nav-mobile">
@@ -12,15 +19,39 @@ const NavBar = () => {
         <a href="https://odaceplus.com/fr/search">
           <img src={aiSearchIcon} alt="Icone de loupe" />
         </a>
-        <div className="burger-btn">
+        <div className="burger-btn" onClick={handleClick}>
           <span></span>
           <span></span>
           <span></span>
         </div>
+        <div className="burger-menu">
+          <div className="burger-close__btn">⨉</div>
+          <a href="#">
+            <img src={odaceLogo} alt="logo odace" className="logo" />
+          </a>
+          <ul className="burger-menu__list">
+            <li>
+              <a href="https://odaceplus.com/fr/a-propos">À propos</a>
+            </li>
+            <li>
+              <a href="https://odaceplus.com/fr/tarifs">Plans</a>
+            </li>
+            <li>
+              <a href="https://odaceplus.com/fr/ressources">Ressources</a>
+            </li>
+            <li>
+              <a href="mailto:support@odaceplus.com">Contact</a>
+            </li>
+          </ul>
+          <div className="burger-menu__account">
+            <a href="https://odaceplus.com/fr/signup">Inscription</a>
+            <a href="https://odaceplus.com/fr/signin">Connexion</a>
+          </div>
+        </div>
       </div>
       <div className="nav-desk">
         <div className="nav-left">
-          <a href="https://odaceplus.com/fr/a-propos">Plans</a>
+          <a href="https://odaceplus.com/fr/tarifs">Plans</a>
           <a href="https://odaceplus.com/fr/a-propos">À Propos</a>
         </div>
         <div className="nav-right">
