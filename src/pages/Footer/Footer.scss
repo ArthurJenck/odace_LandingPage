@@ -36,5 +36,9 @@ footer {
 
     display: flex;
     flex-direction: column;
+
+    .footer-links {
+      padding: 0;
+    }
   }
 }
