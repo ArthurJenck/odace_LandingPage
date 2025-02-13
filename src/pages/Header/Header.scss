@@ -2,7 +2,7 @@
 
 header {
   height: 100svh;
-  padding-top: 22vh;
+  padding-top: 15vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -28,6 +28,20 @@ header {
         font-size: 40vw;
         vertical-align: middle;
       }
+    }
+  }
+
+  .header-catalogue__btn {
+    background-color: transparent;
+    border: none;
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: auto 0 1rem;
+    cursor: pointer;
+    img {
+      margin-left: 0.1rem;
+      height: 0.5rem;
     }
   }
 }

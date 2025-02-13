@@ -12,7 +12,7 @@ const Header = () => {
         Laissez libre court à votre <em>imagination</em>
       </h1>
       <SearchBar />
-      <button>
+      <button className="header-catalogue__btn">
         Catalogue <img src={downChevronIcon} alt="Chevron vers le bas" />
       </button>
     </header>

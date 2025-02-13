@@ -5,7 +5,11 @@ import "./SearchBar.scss"
 const SearchBar = () => {
   return (
     <form className="header-searchBar__container">
-      <img src={aiStarIcon} alt="icone IA" />
+      <img
+        src={aiStarIcon}
+        alt="icone IA"
+        className="header-searchBar__aiIcon"
+      />
       <input
         type="text"
         name="ai-search"
