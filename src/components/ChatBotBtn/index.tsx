@@ -3,7 +3,7 @@ import "./ChatBotBtn.scss"
 
 const ChatBotBtn = () => {
   return (
-    <button>
+    <button className="chatbot-btn">
       <img src={chatBotIcon} alt="Icone du chatbot" />
     </button>
   )
