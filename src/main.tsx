@@ -5,7 +5,7 @@ import Header from "./pages/Header"
 import ChatBotBtn from "./components/ChatBotBtn"
 import NavBar from "./components/NavBar"
 import BannerCarousel from "./components/BannerCarousel"
-import GallerySection from "./pages/GallerySection"
+import GalleryWrapper from "./pages/GalleryWrapper"
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -13,6 +13,6 @@ createRoot(document.getElementById("root")!).render(
     <Header />
     <ChatBotBtn />
     <BannerCarousel />
-    <GallerySection />
+    <GalleryWrapper />
   </StrictMode>
 )
