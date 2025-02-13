@@ -1,7 +1,7 @@
 import Banner1 from "../../assets/banners/banner-1.jpg"
 import Banner2 from "../../assets/banners/banner-2.jpg"
 import Banner3 from "../../assets/banners/banner-3.jpg"
-import "./Banner.scss"
+import "./BannerCarousel.scss"
 
 const Banner = () => {
   return (
