@@ -14,7 +14,7 @@ const GalleryWrapper = () => {
   }, [])
 
   return (
-    <main>
+    <main className="gallery-wrapper">
       {thumbnailCategs
         ? thumbnailCategs.map((categ, index) => {
             return <GallerySection categ={categ} key={categ.id + index} />

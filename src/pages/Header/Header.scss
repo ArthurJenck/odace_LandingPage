@@ -2,7 +2,7 @@
 
 header {
   height: 100svh;
-  padding-top: 15vh;
+  padding-top: min(150px, 15vh);
   display: flex;
   align-items: center;
   flex-direction: column;

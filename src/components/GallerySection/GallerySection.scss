@@ -1,0 +1,8 @@
+.gallery-section {
+  .gallery-cards__container:has(:not(.empty-categ)) {
+    margin: 0.5rem 0 3rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+  }
+}
