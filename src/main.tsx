@@ -4,11 +4,13 @@ import "./styles/main.scss"
 import Header from "./pages/Header"
 import ChatBotBtn from "./components/ChatBotBtn"
 import NavBar from "./components/NavBar"
+import Banner from "./components/Banner"
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <NavBar />
     <Header />
     <ChatBotBtn />
+    <Banner />
   </StrictMode>
 )
