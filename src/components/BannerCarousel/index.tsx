@@ -10,7 +10,7 @@ const Banner = () => {
     new Glide(".glide", {
       type: "slider",
       touchAngle: 0,
-      autoplay: 5000,
+      autoplay: 4000,
     }).mount()
   }, [])
 
