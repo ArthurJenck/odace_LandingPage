@@ -1,0 +1,154 @@
+[
+  {
+    "title": "Informations",
+    "isAside": true,
+    "links": [
+      {
+        "text": "À propos",
+        "href": "https://odaceplus.com/fr/a-propos"
+      },
+      {
+        "text": "Plans",
+        "href": "https://odaceplus.com/fr/tarifs"
+      },
+      {
+        "text": "Ressources",
+        "href": "https://odaceplus.com/fr/ressources"
+      },
+      {
+        "text": "Recherche avancée",
+        "href": "https://odaceplus.com/fr/search"
+      }
+    ]
+  },
+  {
+    "title": "Mes services",
+    "isAside": true,
+    "links": [
+      {
+        "text": "Tableau de bord",
+        "href": "https://odaceplus.com/fr/dashboard/main"
+      },
+      {
+        "text": "Favoris",
+        "href": "https://odaceplus.com/fr/favorites"
+      },
+      {
+        "text": "Mes créations",
+        "href": "https://odaceplus.com/fr/cart/done"
+      },
+      {
+        "text": "Mes brouillons",
+        "href": "https://odaceplus.com/fr/cart/draft"
+      }
+    ]
+  },
+  {
+    "title": "Secteurs et métiers",
+    "mobileTitle": "Secteurs",
+    "isAside": false,
+    "links": [
+      {
+        "text": "Consultant en finance personnelle",
+        "href": "https://odaceplus.com/fr/mission/consultant_finance_personnelle"
+      },
+      {
+        "text": "Producteur de films indépendants",
+        "href": "https://odaceplus.com/fr/tarifs"
+      },
+      {
+        "text": "Cabinet de conseil",
+        "href": "https://odaceplus.com/fr/ressources"
+      },
+      {
+        "text": "Entreprise de décorateur d'intérieur",
+        "href": "https://odaceplus.com/fr/search"
+      },
+      {
+        "text": "Agent immobilier",
+        "href": "https://odaceplus.com/fr/search"
+      },
+      {
+        "text": "Organisateur d'événements (wedding planner, corporate events)",
+        "href": "https://odaceplus.com/fr/search"
+      },
+      {
+        "text": "Consultant en transformation digitale",
+        "href": "https://odaceplus.com/fr/search"
+      },
+      {
+        "text": "Professionnels du bien-être",
+        "href": "https://odaceplus.com/fr/search"
+      },
+      {
+        "text": "Brand manager (gestionnaire de marque)",
+        "href": "https://odaceplus.com/fr/search"
+      },
+      {
+        "text": "Thérapeute (psychlogue, psychothérapeute)",
+        "href": "https://odaceplus.com/fr/search"
+      }
+    ]
+  },
+  {
+    "title": "Des vidéos pour...",
+    "mobileTitle": "Objectifs",
+    "isAside": false,
+    "links": [
+      {
+        "text": "Éduquer leur audience sur leurs produits ou services",
+        "href": "https://odaceplus.com/fr/mission/consultant_finance_personnelle"
+      },
+      {
+        "text": "Accroître la conversion de visiteurs en acheteurs",
+        "href": "https://odaceplus.com/fr/tarifs"
+      },
+      {
+        "text": "Obtenir des témoignages et avis positifs de clients",
+        "href": "https://odaceplus.com/fr/ressources"
+      },
+      {
+        "text": "Améliorer la communication client via les réseaux",
+        "href": "https://odaceplus.com/fr/search"
+      },
+      {
+        "text": "Augmenter les interactions via des sondages, quizz ou challenges",
+        "href": "https://odaceplus.com/fr/search"
+      },
+      {
+        "text": "Accroître le nombre de prises de rendez-vous ou de consultations",
+        "href": "https://odaceplus.com/fr/search"
+      },
+      {
+        "text": "Réduire les coûts du support client avec des contenus",
+        "href": "https://odaceplus.com/fr/search"
+      },
+      {
+        "text": "Promouvoir des événements (webinaires, ateliers, conférences)",
+        "href": "https://odaceplus.com/fr/search"
+      },
+      {
+        "text": "Optimiser la communication en temps réel (stories, lives)",
+        "href": "https://odaceplus.com/fr/search"
+      },
+      {
+        "text": "Augmenter le nombre d'abonnés",
+        "href": "https://odaceplus.com/fr/search"
+      }
+    ]
+  },
+  {
+    "mobileTitle": "Légal",
+    "isAside": false,
+    "links": [
+      {
+        "text": "Mentions légales",
+        "href": "https://odaceplus.com/fr/legal"
+      },
+      {
+        "text": "Termes et conditions",
+        "href": "https://odaceplus.com/fr/general-conditions"
+      }
+    ]
+  }
+]
