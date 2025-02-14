@@ -28,8 +28,8 @@ const NavBar = () => {
           <div className="burger-close__btn" onClick={handleClick}>
             ⨉
           </div>
-          <a href="#">
-            <img src={odaceLogo} alt="logo odace" className="logo" />
+          <a href="#" className="logo">
+            <img src={odaceLogo} alt="logo odace" />
           </a>
           <ul className="burger-menu__list">
             <li>
