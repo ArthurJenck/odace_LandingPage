@@ -103,8 +103,10 @@ nav {
         }
 
         .logo {
-          width: 75%;
-          padding: 4rem 0;
+          margin: 4rem auto;
+          img {
+            width: fit-content;
+          }
         }
 
         a {
