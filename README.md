@@ -1,4 +1,4 @@
-# Odace – Landing Page
+# odace – Landing Page
 
 ## Exercice du processus de recrutement d'Odace, Maison de création audiovisuelle
 
